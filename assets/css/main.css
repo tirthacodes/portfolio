@@ -928,3 +928,53 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+
+
+
+.logo-img-container {
+  
+  background-color: #1e1c1c; /* Light gray background color */
+  border-radius: 50%; /* Makes the container circular */
+  display: flex; /* Center the image */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+}
+
+.logo-img {
+  width: 80px; /* Adjust the image size inside the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensure the image covers the circular area properly */
+}
+
+
+
+
+
+
+
+/* Static Image Display Container */
+.static-gallery {
+  padding: 2px;
+  display: flex;
+  overflow-x: auto; /* Allows horizontal scrolling if necessary */
+  white-space: nowrap; /* Prevents images from wrapping to the next line */
+  width: 100%; /* Adjust the width as needed */
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  gap: 10px; /* Adjust the space between images */
+}
+
+/* Each Image */
+.image-container img {
+  width: 100px; /* Set to your preferred size */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image fits nicely within the given dimensions */
+  border-radius: 15px; /* Rounded corners for a more curved look */
+}
+
